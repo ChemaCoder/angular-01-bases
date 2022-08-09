@@ -17,4 +17,9 @@ export class MainPageComponent {
     { nombre: 'Vegueta', poder: 8500 }
   ];
 
+  agregarNuevoPersonaje( data: Personaje ) {
+    console.log(data)
+    this.personajes.push(data)
+  }
+
 }
